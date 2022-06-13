@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/0b8e6fae98.js" crossorigin="anonymous"></script>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="index.css">    
+
+    
+    <title>Axie Breeding Tools</title>
+  </head>
+  <body>
+    
+    <aside id="main-menu">
+
+      <div id="sidebar">
+        <!-- header menu -->
+        <div id="header-container">
+          <i class="fa-solid fa-bars" id="toggle-sidebar-btn"></i>
+          <i class="fa-solid fa-folder" id="selected-cases-btn"></i>
+        </div>
+
+        <!-- select builds 'input' -->
+        <div id="select-builds-container">
+          <select name="builds" id="select-builds-input">
+            <option value="default">Select Builds</option>
+            <!-- add available builds through javascript -->
+          </select>
+        </div>
+
+        <!-- create builds button -->
+        <div id="create-build-container">
+          <button id="create-build-btn">NEW BUILD</button>
+        </div>
+
+        <!-- selected builds -->
+        <div id="selected-builds">
+
+          <!-- example build -->
+          <!-- <div class="build"> -->
+            <!-- remove build from selected builds -->
+            <!-- <button class="remove-build-btn">x</button>
+
+            <span class="build-name">Plants Heal</span>
+            
+            <div class="interact-with-build">
+                <input type="text" class="selected-build-order" placeholder="Order"> -->
+                <!-- delete build from localStorage -->
+                <!-- <button class="delete-build-btn">Delete</button>
+                <button class="update-build-btn">Update</button>
+            </div>
+
+            <div class="build-results">
+              <span>Results</span>
+              <div class="build-result">
+                <span class="result-title">Probability</span>
+                <div>
+                  <span class="result-id">1650008296</span>
+                  <span class="result-date">4/15/22</span>
+                </div>
+                <button class="delete-build-result">x</button>
+              </div>
+
+              <div class="build-result">
+                <span class="result-title">Purity</span>
+                <div>
+                  <span class="result-id">1650008296</span>
+                  <span class="result-date">4/15/22</span>
+                </div>
+                <button class="delete-build-result">x</button>
+              </div>
+            </div>
+            
+          </div> -->
+
+        </div>
+       
+      </div>
+
+      <!-- execute buttons (match - stop) -->
+      <div id="execute-container">
+        <button id="match-btn">MATCH</button>
+        <button id="stop-btn">STOP</button>
+      </div>
+      
+
+    </aside>
+
+
+
+    <!-- showcase -->
+    <main id="showcase">
+
+    </main>
+
+
+
+
+
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>
+
+
+
+

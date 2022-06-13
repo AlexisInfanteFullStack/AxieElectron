@@ -1,0 +1,18 @@
+{
+  "name": "axie-pair-match",
+  "version": "1.0.0",
+  "description": "axie-pair-match",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "Alexis Infante",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^17.2.0"
+  },
+  "dependencies": {
+    "agp-npm": "^1.0.10",
+    "superagent": "^7.1.3"
+  }
+}
